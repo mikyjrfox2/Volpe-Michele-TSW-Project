@@ -1,0 +1,1288 @@
+@media screen and (max-width: 899.9px) {
+	html {
+		background-color: #002038;
+		color: lightblue;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		font-family: 'Candara';
+		margin-top:-8px;
+	}
+	
+	#error {
+		max-width: 150%;
+	    width: 150%;
+	    height: auto;
+	    margin-top: 160px;
+	    margin-left: -25%;
+	    z-index: 0;
+	}
+	
+	#exc {
+		color: black;
+		margin-top: 32em;
+		position:absolute;
+	}
+	
+	body {
+		margin: 7px 0px;
+		min-height: 100%;
+    	height: auto;
+	}
+
+	#listeffect { /*ul*/
+		position: relative;
+		display: flex;
+		width: 100%;
+		cursor: default;
+		justify-content: space-around;
+    	flex-wrap: nowrap;
+    	margin-left: -40px;
+    	top: 25px;
+    	font-size: 105%;
+	}
+	
+	#listeffect li {
+		position: relative;
+	}
+	
+	li {
+		list-style: none;
+	}
+	
+	label {
+		position: relative;
+	}
+	
+	.checkbox {
+		position: absolute;
+	    opacity: 0;
+	    cursor: default;
+	    height: 85%;
+	    width: 90%;
+	    z-index: 100;
+	    margin-top: 669px;
+	}
+	
+	.chareffect {
+		position: relative;
+		height: 100%;
+		width: 0%;
+		background: #18191f;
+		color: #555;
+		background: #002038;
+		font-size: 80%;
+	}
+
+	.dati { /*login*/
+		position: relative;
+		height: 40%;
+		width: 60%;
+		margin: auto;
+		padding: 40px 40px;
+		background: url("../imgs/sfondoLogin.jpg") no-repeat center center #505050;
+		background-size: cover;
+		box-shadow: 0px 30px 60px -5px #000;
+		margin-top: 2em;
+	}
+	
+	.datiSignup {
+		position: relative;
+		height: 40%;
+		width: 60%;
+		margin: auto;
+		padding: 40px 40px;
+		background: url("../imgs/sfondoLogin.jpg") no-repeat center center #505050;
+		background-size: cover;
+		box-shadow: 0px 30px 60px -5px #000;
+		margin-top: 2em;
+	}
+	
+	::placeholder {
+		color: #404040;
+		opacity: 1;
+	}
+	
+	.text { /*formato testo campi di inserimento*/
+		border: none;
+		width: 89%;
+		padding: 10px 20px;
+		display: block;
+		height: 15px;
+		border-radius: 20px;
+		background: rgba(0, 0, 0, 0.1);
+		border: 2px solid rgba(0, 0, 0, 0);
+		overflow: hidden;
+		margin-top: 15px;
+		transition: all 0.5s ease-in-out;
+	}
+	
+	.text:focus {
+		outline: 0;
+		border: 2px solid rgba(0, 0, 0, 0.5);
+		border-radius: 20px;
+		background: rgba(0, 0, 0, 0);
+	}
+	
+	label[for=email], label[for=password], label[for=nickname], label[for=psw],
+		label[for=psw-repeat], label[for=name], label[for=profilepic] {
+		color: black;
+		text-transform: uppercase;
+		font-size: 18px;
+		opacity: 0.8;
+		transition: all 0.5s ease-in-out;
+	}
+
+	label[for=checkbox] {
+		color: black;
+		font-size: 15px;
+		opacity: 0.8;
+		transition: all 0.5s ease-in-out;
+	}
+
+	.signin { /*bottone convalida registrazione*/
+		background-color: #1161ed;
+		color: #FFF;
+		width: 100%;
+		padding: 10px 20px;
+		display: block;
+		height: 39px;
+		border-radius: 20px;
+		margin-top: 30px;
+		transition: all 0.5s ease-in-out;
+		border: none;
+		text-transform: uppercase;
+	}
+	
+	/*.signin:hover {
+		background: #4082f5;
+		box-shadow: 0px 4px 35px -5px #4082f5;
+		cursor: pointer;
+	}*/
+	
+	.signin:focus {
+		outline: none;
+	}
+	
+	#dati { /*dati utente*/
+		position: relative;
+		height: 95%;
+		width: 65%;
+		margin: auto;
+		margin-top: 6em;
+		padding: 40px;
+		background: url("../imgs/sfondoLogin.jpg") no-repeat center center	#505050;
+		background-size: cover;
+		box-shadow: 0px 30px 60px -5px #000;
+	}
+	
+	.imguser { /*div con immagine profilo dell'utente*/
+		width: 50%;
+		height: auto;
+		float: left;
+	}
+	
+	#profilepic{ /*immagine profilo utente*/
+		width: 80px;
+		height: auto;
+		margin-left: 10%;
+    	margin-top: 10px;
+    	border-radius: 10%;
+	}
+	
+	#infoutente { /*div con insieme delle informazioni dell'utente*/
+		color: #002038;
+		text-align: justify;
+		text-justify: inter-word;
+		margin-left: 55%;
+		margin-right: 5%;
+		font-size: 90%;		
+	}
+	
+	#modificaprofbutton {
+		border-radius: 5px;
+		border: 1px solid;
+		background-color: lightblue;
+		font-size: 92%;
+		float: right;
+	}
+	
+	/*#modificaprofbutton:hover {
+		background-color: white;
+	}*/
+	
+	input {
+		display: inline-block;
+		padding-top: 20px;
+		font-size: 14px;
+		width: auto;
+		white-space: pre-line;
+	}
+	
+	#gioco { /*dimensioni immagini gioco della tabella in Negozio*/
+		width: 110px;
+		height: 60px;
+		margin-bottom: -4px;
+		/*margin-left: -2px;
+		margin-top: -1px;
+		transition: width 0.4s, height 0.4s;*/
+	}
+	
+	@font-face {
+		font-family: Candara;
+		src: url("../font/Candara.ttf");
+	}
+	
+	#tabelle { /*div che contiene le tabelle dei generi e dei videogiochi*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: stretch;
+		align-content: center;
+	}
+	
+	.generi tr, .generi td{ /*div che contiene tabella dei generi*/
+    	display: none;
+	}
+	
+	#generiVg {
+		cursor: default;
+		margin-top: -19px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.genere {
+		flex: auto;
+		text-align:center;
+		margin: 5px;
+		padding: 1px;
+		border: 1px solid #002C52;
+		border-radius: 10%;
+		background-color: #002C52;
+	}
+	
+	.gen{
+		flex: auto;
+		text-align:center;
+		margin: 5px;
+		padding: 1px;
+		border: 1px solid #002C52;
+		border-radius: 10%;
+		background-color: #002C52;
+	}
+	
+	.gen a{
+		text-decoration:none;
+		color: lightblue;
+	}    
+    
+    #tableMod {
+    	width: 100%;
+    	margin-top: 10%;
+    }
+    
+    #divtab{
+		width: 100%;
+	}
+    
+    	/* Forziamo la tabella a non essere pi� una tabella */
+	#tableMod, #tableMod thead, #tableMod tbody, #tableMod thead tr th, #tableMod tbody tr td, #tableMod thead tr, #tableMod tbody tr { 
+		display: block;
+		background: #002C52;
+	}
+	
+	/* Nascondiamo gli header della tabella (non usiamo display: none; per motivi di accessibilit�) */
+	#tableMod thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	#tableMod thead tr,  #tableMod tbody tr{ 
+		border: 1px solid #ccc; 
+	}
+	
+	#tableMod tbody tr td { 
+		border: none;
+		position: relative;
+		padding-left: 50%;
+		padding-bottom: 10px;
+	}
+	
+	#tableMod tbody tr td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+    
+    /*
+	Etichette tabella admin db videogiochi responsive
+	*/
+	.tablevg tbody tr td:nth-of-type(1):before { 
+		content: "Titolo";
+		font-weight: bold;
+		font-size: 20px;
+		overflow: hidden;
+	 }
+	 
+	.tablevg tbody tr td:nth-of-type(2):before { 
+		content: "Sviluppatore";
+		font-weight: bold;
+		font-size: 20px;
+		overflow: hidden;
+	}
+	
+	.tablevg tbody tr td:nth-of-type(3):before { 
+		content: "Editore";
+		font-weight: bold;
+		font-size: 20px;
+		overflow: hidden;
+	}
+	
+	.tablevg tbody tr td:nth-of-type(4):before { 
+		content: "Prezzo";
+		font-weight: bold;
+		font-size: 20px;
+		overflow: hidden;
+	}
+	
+	/*
+	Etichette tabella admin db utenti responsive
+	*/
+	.tableuser tbody tr td:nth-of-type(1):before { 
+		content: "Email";
+		font-weight: bold;
+		font-size: 20px;
+		overflow: hidden;
+	 }
+	 
+	.tableuser tbody tr td:nth-of-type(2):before { 
+		content: "Nickname";
+		font-weight: bold;
+		font-size: 20px;
+		overflow: hidden;
+	}
+	
+	.tableuser tbody tr td:nth-of-type(3):before { 
+		content: "Nome";
+		font-weight: bold;
+		font-size: 20px;
+		overflow: hidden;
+	}
+	
+	.tableuser tbody tr td:nth-of-type(4):before {
+		content: "Biografia";
+		font-weight: bold;
+		font-size: 20px;
+		overflow: hidden;
+	}
+	
+	.tableuser tbody tr td:nth-of-type(5):before { 
+		content: "Punti";
+		font-weight: bold;
+		font-size: 20px;		
+		overflow: hidden;
+	}
+
+	.tableuser tbody tr td:nth-of-type(6):before { 
+		content: "Portafoglio";
+		font-weight: bold;
+		font-size: 20px;		
+		overflow: hidden;
+	}    
+	
+	.catalogo { /*div che contiene tabella dei videogiochi*/
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+	
+	#generi { /*tabella dei generi*/
+		text-align: left;
+		margin-left: auto;
+		margin-right: -1%;
+    	flex-basis: auto;
+    	position: relative;
+	}
+
+	#catalogo { /*tabella dei videogiochi*/
+		border-spacing: 0 1em;
+		border-collapse: separate;
+		margin-left: auto;
+		margin-right: auto;
+		width: 95%;
+		flex-basis: auto;
+	}
+	
+	.catelements{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+	}
+	
+	#relDate {
+		display: none;
+	}
+	
+	/*table tr:hover {
+		background-color: lightcyan;
+		transition: width 0.2s, height 0.2s;
+	}*/
+
+	#catalogo a:link, a:visited {
+		color: black;
+		text-decoration: none;
+	}
+	
+	.vgCat { /*righe tabella*/
+		background-color: #002C52;
+		cursor: pointer;
+		transition: width 0.4s, height 0.4s;
+		width: auto;
+		height: 30px;
+		white-space: pre-line;
+	}
+	
+	/*#catalogo tr:hover {
+		background-color: rgb(0, 64, 64);
+		width:200px;
+		height: 3em;
+	}*/
+	
+	/*#catalogo .vgCat:hover #gioco { /* incrementa dimensione immagine di gioco quando si passa sopra a una riga della tabella in Negozio col mouse*/
+		/*width: 175px;
+		height: 90px;
+		margin-bottom: -7px;
+		margin-left: -2px;
+	}*/
+	
+	/*#catalogo .vgCat:hover {
+		font-size: 1.3em;
+	}*/
+	
+	/*tr {
+		background-color: #002C52;
+		cursor: pointer;
+	}*/
+	
+	.header {
+		width: 30%;
+		text-align: center;
+		margin: auto;
+		margin-top: 15%;
+		font-size: 150%;
+		opacity: 0.8;
+	}
+	
+	.logo .mobileLogo {
+		position: absolute;
+		width: 2.8em;
+		height: auto;
+		top: 3.5em;
+		left: 0.5%;
+	}
+	
+	.logo .desktopLogo {
+		display: none;
+	}
+	
+	iframe {
+		border: 1px solid green;
+		border-radius: 30px;
+	}
+	
+	.error {
+		border-color: red;
+	}
+	
+	.suppdata {
+		text-align: center;
+		margin: 0 5%;
+		/*
+		display:inline-block;
+		margin-left:7%;
+		*/
+	}
+	
+	.gestionebuttons { /*div contenente i bottoni di gestione*/
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
+	
+	.ManagementButton{	/* bottone admin per modifica utenti e videogiochi */
+		background: none;
+		border: none;
+		width: 100px;
+	}
+	
+	.ManagementButton img{	
+		width: 100%;
+	}	
+	
+	.ManagementButton img:active{
+		box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+	}
+	
+	#menu { /*menubar*/
+		overflow: hidden;
+		background-color: #002038;
+		width: 100%;
+		margin: auto;
+		position: fixed;
+		z-index: 20;
+	}
+	
+	#menu a { /*link menubar*/
+		float: left;
+		display: block;
+		font-size: 17px;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	/*#menu a:hover {
+		background-color: red;
+	}
+	
+	#wallet:hover {
+		background: #333 !important;
+		color: lightblue;
+	}*/
+	
+	#wallet{
+		padding-left: 0% !important;
+	}
+	
+	#cart {
+		top: -15px;
+		left: 60px;
+		border-radius: 50%;
+		position: relative;
+		background-color: red !important;
+		display: inline-block;
+		font-size: 13px;
+		width: 17px;
+		height: 17px;
+		text-align: center;
+	}
+	
+	#menu .navright {
+		float: right;
+	}
+	
+	.active {
+		background-color: #00D1FF;
+	}
+	
+	#menu a:not(:first-child), #menu #logout, #menu #logEsignin {	/* nascondi elementi navbar - eccetto Home - */
+		display: none;
+	}
+	
+ 	#menu a.icon {
+    	float: right;
+    	display: block;
+  	}
+  	
+  	#menu.responsive {
+  		position: fixed;
+  	}
+  	
+	#menu.responsive a.icon {
+		position: absolute;
+   	 	right: 0;
+    	top: 0;
+  }
+  
+	#menu.responsive a, #menu.responsive #logout, #menu.responsive #logEsignin {	/* mostra elementi navbar una volta aperti i tre piripicchi */
+    	float: none;
+    	display: block;
+    	text-align: left;
+  }
+  
+  /* potrebbe servire quindi lo tengo qui
+  #button{
+		font-size: 17px;
+		color: white;
+		border: none;
+		outline: none;
+		background-color: #333;
+		font-family: inherit;
+		cursor: pointer;
+		padding: 6px 15px;
+	}*/
+
+	#vg {
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		margin-top: -3%;
+		text-align: center;
+		
+		display: flex;
+		flex-direction: column-reverse;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+	
+	
+	#titolo {
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		padding-top: 2.5%;
+		text-align: center;
+		margin-top: 20%;
+	}
+	
+	.videovg {
+		width: 100%;
+	}
+	
+	.infovg {
+		width: 90%;
+		height: auto;
+	}
+	
+	.infovg #infos{		/*	div informazioni videogioco - necessario per centrarle in viewmobile*/
+		text-align: center;
+	}
+	
+	#video {	/* iframe */
+		position: absolute;
+   		top: 0;
+    	left: 0;
+    	border-radius: 5px;
+		border: 1px solid;
+    	width: 100%;
+    	height: 100%;
+	}
+	
+	#iframediv{
+		position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+	}
+
+	
+	#giocovg { /*dimensioni immagine gioco in descrizione*/
+		/*
+		margin-left: 30%;
+		*/
+		padding-top: 5%;
+		width: 100%;
+		height: auto;
+	}
+	
+	.testodettagli {
+		color: white;
+		font-size: 110%;
+	}
+	
+	#descrvg {
+		text-align: justify;
+		text-justify: inter-word;
+		/*margin-left: 65%;
+		 margin-right: 10%;
+		 margin-top: -7%;
+		*/
+	}
+	
+	#prezzo {
+		font-size: 120%;
+		display: inline-block;
+	}
+	
+	#buybutton {
+		border-radius: 5px;
+		border: 1px solid;
+		background-color: #7CFC00;
+		font-size: 100%;
+		text-decoration: none;
+		color: black;
+		padding: 1%;
+		overflow: visible;
+	}
+	
+	#libreriadiv { /*div contenente tabella libreria utente*/
+		margin-left: 5%;
+		width: 90%;
+	}
+	
+	#libreria { /*tabella libreria utente*/
+		position: relative;
+		margin-top: 3%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		height: auto;
+		text-align: center;
+		border: thick ridge lightblue;
+  		border-spacing: 0 1em;
+		border-collapse: separate;
+		border-radius: 2.5%;
+	}
+	
+	.thlibreria {
+		font-size: 130%;
+	}
+	
+	.trlibreria {
+		background-color: #002C52;
+		cursor: pointer;
+		transition: width 0.4s, height 0.4s;
+		height: auto;
+		padding: 2%;
+	}
+	
+	/*.trlibreria:hover { 
+		background-color: rgb(0, 64, 64);
+	}*/
+	
+	#download { /*riquadro gioco da acquistare o gi� acquistato*/
+		font-size: 110%;
+		display: inline-block;
+		border: 3px groove;
+		background-color: #002C52;
+		padding-left: 1%;
+    	padding-bottom: 5%;
+    	padding-right: 1%;
+   		padding-top: 0%;
+   		width: 77%;
+   		margin-top: 5%;
+   		margin-bottom: 3%;
+   		overflow: hidden;
+	}
+	
+	#acquista { /*span con prezzo + bottone acquisto*/
+		width: 9.2em;
+		border:2px solid black;
+		padding: 1.5%;
+		border-radius: 7px;
+	}
+	
+	#scaricabutton {
+		border-radius: 5px;
+		border: 1px solid;
+		background-color: orange;
+		font-size: 110%;
+		padding: 0.5%;
+		text-decoration: none;
+	}
+	
+	/*#scaricabutton:hover {
+		background-color: #E4CC31;
+	}*/
+	
+	#contatta { /*span con scritta contattare assistenza + bottone*/
+		display: block;
+		font-size: 95%;
+		margin-bottom: 3%;
+	}
+
+	.playbutton { /*bottone Avvia Ora*/
+		display: none;
+	}
+	
+	/*#playbutton:hover {
+		background-color: #7CFC00;
+	}*/
+	
+	.h3home {
+		text-transform:uppercase;
+		text-align: center;
+		margin-top: 35px;
+		margin-bottom: 12px;
+	}
+	
+	/*casella di ricerca*/
+	#searchBar {
+		position: relative;
+		left: 43%;
+		top: 60px;
+		height: 50px;
+		background: white;
+		box-sizing: border-box;
+		border-radius: 25px;
+		border: 4px solid white;
+		padding: 5px;
+		width: 50%;
+		cursor: pointer;
+		z-index: 4;
+		-webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+	}
+	
+	input[type="search"] {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 42.5px;
+		line-height: 30px;
+		outline: 0;
+		border: 0;
+		font-size: 1em;
+		border-radius: 20px;
+		padding: 0 20px;
+		background: #002C52;
+		color: yellow;
+		
+		display: block;
+	}
+	
+	#suggest{
+		background-color: white;
+		margin-top: 1em;
+		font-size: 18px;
+		width: 94%;
+		overflow: hidden;
+	}
+	
+	#suggest td a{
+		text-decoration: none;
+		color: black;
+	}
+	
+	#searchdiv{
+		padding-bottom: 50px;
+	}
+	
+	#gestionepag {
+		display: flex;
+		flex-direction: column;	
+	}
+	
+	.gest{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+	}
+	
+	.fa {
+		box-sizing: border-box;
+		padding: 10px;
+		width: 42.5px;
+		height: 42.5px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		border-radius: 50%;
+		color: white;
+		text-align: center;
+		font-size: 1.5em;
+		cursor: pointer;
+	}
+	
+	/*#searchBar:hover {
+		width: 18%;
+		cursor: pointer;
+	}
+	
+	#searchBar:hover input {
+		display: block;
+	}
+	
+	#searchBar:hover .fa {
+		background: #07051a;
+		color: white;
+	}*/
+	
+	#eliminabutton {
+		background-color: none;
+		border-radius: 50%;
+		border: none;
+		color: white;
+		padding: 2px;
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 2px;
+		cursor: pointer;
+	}
+	
+	#trashbinimage {
+		width: 80%;
+		height: 80%;
+	}
+	
+	.rectCheckout1 {
+		width: 50%;
+		height: auto;
+		margin: auto;
+		padding: 1%;
+		border: 1px solid lightblue;
+		background-color: #002C52;
+		text-align: center;
+		overflow: hidden;
+		font-size: 13px;
+	}
+	
+	.reloading {
+		width: 300px;
+		height: auto;
+		border: 1px solid lightblue;
+	}
+	
+	#buynow { /*bottone Procedi all'acquisto*/
+		border-radius: 10px;
+		border: 1px solid;
+		background-color: limegreen;
+		font-family: inherit;
+		font-size: 130%;
+		color: black;
+		padding: 1%;
+		white-space: pre-line;
+		cursor: pointer;
+		margin-top: 4%;
+		word-break: break-all;
+	}
+	
+	/*#buynow:hover { /*bottone Procedi all'acquisto*/
+		/*background-color: #7CFC00;
+	}*/
+	
+	#ricarica { /*bottone Procedi all'acquisto*/
+		border-radius: 10px;
+		border: 1px solid;
+		background-color: orange;
+		font-size: 130%;
+		text-decoration: none;
+		color: black;
+		padding: 1%;
+		white-space: nowrap;
+		cursor: pointer;
+		font-family: inherit;
+	}
+	
+	/*#ricarica:hover { /*bottone Procedi all'acquisto*/
+		/*background-color: #E4CC31;
+	}*/
+	
+	#priceText {
+		/* input type text contenente il totale provvisorio in carrello*/
+		background: transparent;
+		border: none;
+		outline: none;
+		color: lightblue;
+		font-size: 20px;
+		background-color: initial;
+		cursor: default;
+		appearance: auto;
+		box-sizing: border-box;
+		width: 75px;
+		padding: initial;
+		border: initial;
+		text-align: center;
+	}
+	
+	#reload {
+		padding-left: 10%;
+	}
+	
+	#notFound {
+		font-size: 200%;
+	}
+	
+	/*#notFound:hover {
+		background-color: #002038 !important;
+		height: 1px !important;
+	}*/
+	
+	#contattacibutton, #inviabutton { /*bottone per richiedere assistenza tramite form e invio ricarica */
+        border-radius: 5px;
+        border: 1px solid;
+        background-color: lightblue;
+        font-size: 100%;
+        display: inline-block;
+        width: 50%;
+        text-decoration: none;
+    }
+   
+    /*#contattacibutton:hover, #inviabutton:hover {
+        background-color: white;
+    }*/
+    
+    #footer { /*div footer visualizzazione utente*/
+    	border: 1px solid;
+	    width: 24px;
+	    height: 22px;
+	    border-radius: 50%;
+	    position: fixed;
+	    text-align: center;
+	    padding: 0.5%;
+	    background-color: white;
+	    text-decoration: none;
+	    bottom: 0.8rem;
+	    left: 0.8rem;
+    }
+	
+	.footer { /*div footer visualizzazione admin*/
+		position: absolute;
+		border: 3px solid;
+	   	border-radius: 50%;
+		margin-left: 1%;
+		margin-top: 18em;
+	}
+	
+	.footer a, #footer a{
+		text-decoration: none;
+		color: white;
+		font-size: 1.8rem;
+		white-space: no-wrap;
+	}
+	
+	.checkbox:checked ~ div {
+		color: yellow;
+		text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+		animation: glow 1.5s linear infinite;
+	}
+	
+	@keyframes glow{ 
+		0% {
+		filter: hue-rotate(0deg);
+		}
+		100%{
+		filter:	hue-rotate(360deg);
+		}
+	}
+	
+	
+	/* slider */
+	
+	.slider {
+	    position: relative;
+	    background: #000116;
+	    width: 90%;
+	    height: 0;
+	    overflow: hidden;
+	    border-radius: 10px;
+	    left: 50%;
+	    transform: translate(-50%, 0);
+	    padding-bottom: 60%;
+	    padding-top: 0;
+	}
+	
+	.slider .slide, .slider .slide2 {
+	    position: absolute;
+	    width: 100%;
+	    height: 100%;
+	    clip-path: circle(0%);
+	}
+	
+	.slider .slide.active, .slider .slide2.active{
+	  clip-path: circle(100%);
+	  transition: 2s;
+	}
+	
+	.slider .slide img, .slider .slide2 img {
+	    position: absolute;
+	    width: 100%;
+	    height: 100%;
+	}
+	
+	.slider .slide .info, .slider .slide2 .info{
+		  position: absolute;
+		  color: #ffffff;
+		  text-shadow: #000 4px 4px 4px;
+		  -webkit-font-smoothing: antialiased;
+		  background: rgb(0 0 0 / 50%);
+		  width: 65%;
+		  margin-top: 19px;
+		  margin-left: 44px;
+		  padding-left: 5px;
+		  padding-right: 5px;
+		  border-radius: 5px;
+		  box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
+	}
+
+	.slider .slide .info h2, .slider .slide2 .info h2{
+	  	font-size: 1.4em;
+	 	margin-top: 7px;
+	}
+	
+	.slider .slide .info p, .slider .slide2 .info p {
+	    display: none;
+	}
+	
+	.navigation {
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    transition: opacity 0.5s ease;
+	    padding-top: 28%;
+	}
+	
+	.prev-btn, .next-btn{
+	  z-index: 999;
+	  font-size: 1.5em;
+	  color: #222;
+	  background: rgba(255, 255, 255, 0.8);
+	  padding: 10px;
+	  cursor: pointer;
+	}
+	
+	.prev-btn{
+	  border-top-right-radius: 3px;
+	  border-bottom-right-radius: 3px;
+	}
+	
+	.next-btn{
+	  border-top-left-radius: 3px;
+	  border-bottom-left-radius: 3px;
+	}
+	
+	.navigation-visibility {
+	    z-index: 999;
+	    display: flex;
+	    justify-content: center;
+	    padding-top: 30% !important;
+	}
+	
+	/*popup modifica*/
+	#close{
+		cursor: pointer;
+		color: black;
+		float: right;
+		width: 20px;
+		height: auto;
+		text-align: center;
+		font-size: 20px;
+		padding: 8px;
+	}
+	
+	#close:hover{
+		color: grey;
+	}
+	
+	#popup input,textarea{
+    	width: 92%;
+    	font-size: 12px;
+    	padding: 5px;
+	}
+	
+	#divPopup {
+	    position: fixed;
+	    padding-top: 4rem;
+	    left: 0;
+	    top: 0;
+	    width: 100%;
+	    height: 100%;
+	    overflow: auto;
+	    background-color: rgba(0,0,0,0.4);
+	    margin: 0;
+	    z-index: 999;
+	}
+	
+	#genEdit{
+		border: 1px black solid; 
+		color: black; 
+		width: 92%; 
+		font-size: 11px; 
+		padding: 7px;
+		margin: auto;
+		text-align: start;
+		margin-top: 13px;
+		font-family: Arial;
+		height: auto;
+	}
+	
+	#genSelect{
+		padding: 5px;
+	}
+	
+	.del{
+		border-radius: 50%;
+		width: 16px;
+		height: 16px;
+		padding: 0px;
+		transform: translate(-5%, 10%);
+		background-color: red;
+		margin-left: 3px;
+		font-size: 11px;
+	}
+	
+	.gensEdit{
+		margin-left: 2px;
+		margin-right: 2px;
+		border: 1px solid black;
+		background-color: #EFEEF9;
+    	padding: 3px;
+	}
+	
+	#popup {
+	    background-color: #fefefe;
+	    margin: auto;
+	    padding: 10px;
+	    border: 1px solid #888;
+	    width: 60% ;
+	    height: auto ;
+	    border-radius: 10px;
+	    box-shadow: 1px 1px 15px var(--blue);
+	    color: black;
+	    font-size: 11px;
+	}
+	
+	#popup label{
+	    margin-left: 3%;
+	    float: left;
+	    color: black;
+	    font-size: 15px;
+	    margin-top: 4px;
+	}
+	
+	#editBut{
+		width: 125px;
+		font-size: 100%;
+		padding: 5px;
+		font-family: inherit;
+	}
+	
+	#addBtn{
+		border-radius: 10px;
+	    border: 1px solid;
+	    background-color: lightgreen;
+	    font-size: 150%;
+	    text-decoration: none;
+	    color: black;
+	    padding: 6px;
+	    font-family: inherit;
+	}
+	
+	#divAddGen{
+		border: 1px solid silver;
+		background-color: #002C52;
+		padding: 15px;
+		position: relative;
+   		top: 54px;
+   		font-size: 10px;
+	}
+	
+	#mng{
+		display: flex;
+	}
+	
+	#addGen{
+		border-radius: 10px;
+		border: 1px solid;
+		background-color: orange;
+		font-size: 150%;
+		text-decoration: none;
+		color: black;
+		padding: 6px;
+		font-family: inherit;
+	}
+}
